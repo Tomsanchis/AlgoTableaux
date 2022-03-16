@@ -44,3 +44,13 @@ export const double = (entry, arr) => {
     }
     return temp;
 }
+
+export const doubleremove = (entry) => {
+    let temp = [];
+    for (let i = 0; i < entry.length; i++) {
+        if (temp.includes(entry[i]) == false) {
+            temp.push(entry[i]);
+        }
+    }
+    return temp;
+}
