@@ -34,3 +34,13 @@ export const tbpairimpair =(entry) => {
     }
     return temp;
 }
+
+export const double = (entry, arr) => {
+    let temp = [];
+    for (let i = 0; i < entry.length; i++) {
+        if (arr.includes(entry[i]) && !temp.includes(entry[i])) {
+            temp.push(entry[i]);
+        }
+    }
+    return temp;
+}
