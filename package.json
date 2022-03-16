@@ -9,6 +9,7 @@
   "directories": {
     "test": "test"
   },
+  "type": "module",
   "devDependencies": {},
   "scripts": {
     "test": "mocha"
