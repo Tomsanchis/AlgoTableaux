@@ -20,3 +20,17 @@ export const string = (entry) => {
     }
     return temp;
 }
+
+export const tbpairimpair =(entry) => {
+    let temp = [[],[]];
+    for (let i = 0; i < entry.length; i++) {
+        // let index = entry[i] % 2
+        // temp[index].push(entry[i])
+        if (entry[i] % 2 === 0) {
+            temp[0].push(entry[i]);
+        } else {
+            temp[1].push(entry[i]);
+        }
+    }
+    return temp;
+}
