@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "mocha": "^9.2.2"
+  },
+  "name": "algotb",
+  "description": "",
+  "version": "1.0.0",
+  "main": "js/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomsanchis/AlgoTableaux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomsanchis/AlgoTableaux/issues"
+  },
+  "homepage": "https://github.com/Tomsanchis/AlgoTableaux#readme"
+}
