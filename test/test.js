@@ -5,6 +5,7 @@ import { moy } from '../js/app.js';
 import { string } from '../js/app.js';
 import { tbpairimpair } from '../js/app.js';
 import { double } from '../js/app.js';
+import { doubleremove } from '../js/app.js'
 
 describe('min', () => {
     it('should return min of tb', () => {
@@ -33,5 +34,11 @@ describe('tbpairimpair', () => {
 describe('double', () => {
   it('should return doublon', () => {
     assert.deepEqual(double([1, 2, 4, 1],[1, 6, 4, 5]), [1,4]);
+  });
+})
+
+describe('doubleremove', () => {
+  it('should return doublon', () => {
+    assert.deepEqual(doubleremove([1, 1, 2, 3]), [1, 2, 3]);
   });
 })
