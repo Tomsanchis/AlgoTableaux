@@ -54,3 +54,15 @@ export const doubleremove = (entry) => {
     }
     return temp;
 }
+
+export const occu = (entry) => {
+    let obj = {};
+    for(let elem of entry) {
+        if (obj[elem]) {
+            obj[elem] += 1;
+        } else {
+            obj[elem] = 1;
+        }
+    }
+    return obj;
+}
