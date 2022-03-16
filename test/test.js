@@ -45,7 +45,7 @@ describe('doubleremove', () => {
 })
 
 describe('occu', () => {
-  it('should return doublon', () => {
+  it('should return occu in object', () => {
     assert.deepEqual(occu(["a", "a", "b", "b"]), { a: 2, b: 2 });
   });
 })
